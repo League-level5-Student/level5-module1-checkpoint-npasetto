@@ -47,7 +47,7 @@ public class SlowFunctions {
 	}
 	
 	public static void slowSortLargeArray() {
-		final int BIL = 100_000;
+		final int BIL = 100000;
 		int[] nums = new int[BIL];
 		for(int i = 0; i < BIL; i++) {
 			nums[i] = new Random().nextInt();
